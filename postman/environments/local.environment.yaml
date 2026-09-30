@@ -1,0 +1,7 @@
+name: Local
+values:
+  - key: baseUrl
+    value: 'http://localhost:8080'
+    description: Base URL for the local development server
+    enabled: true
+    type: default

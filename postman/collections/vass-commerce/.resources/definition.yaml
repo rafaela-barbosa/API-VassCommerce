@@ -1,0 +1,5 @@
+$kind: collection
+name: Vass Commerce API
+description: |-
+  Collection for the projeto_vass_commerce Spring Boot API.
+  Contains all endpoints for the Vass Commerce application.
