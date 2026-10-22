@@ -1,10 +1,15 @@
-package br.com.rafaelaBarbosa.projeto_vass_commerce;
+package br.com.rafaelaBarbosa.projeto_vass_commerce.cliente;
+
+import br.com.rafaelaBarbosa.projeto_vass_commerce.Cartao;
+import br.com.rafaelaBarbosa.projeto_vass_commerce.Endereco;
+import br.com.rafaelaBarbosa.projeto_vass_commerce.Pedido;
+import br.com.rafaelaBarbosa.projeto_vass_commerce.Usuario;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cliente extends Usuario{
+public class Cliente extends Usuario {
 
     private LocalDate dataNascimento;
     private String cpf;

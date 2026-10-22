@@ -1,7 +1,10 @@
-package br.com.rafaelaBarbosa.projeto_vass_commerce;
+package br.com.rafaelaBarbosa.projeto_vass_commerce.produto;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import br.com.rafaelaBarbosa.projeto_vass_commerce.Administrador;
+import br.com.rafaelaBarbosa.projeto_vass_commerce.categoria.Categoria;
+import br.com.rafaelaBarbosa.projeto_vass_commerce.PromocaoItem;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.ArrayList;
@@ -13,11 +16,11 @@ public class Produto {
     private String descricao;
     private String fotoUrl;
     private LocalDateTime dataCadastro;
-    private LocalDateTime dataUltimaAtualizacao;
     private float valorUnitario;
-    @JsonIgnore
+    private LocalDateTime dataUltimaAtualizacao;
+    //@JsonIgnore
     private Categoria categoria;
-    @JsonIgnore
+    //@JsonIgnore
     private Administrador admResponsavel;
     private List<PromocaoItem> desconto;
 

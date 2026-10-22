@@ -1,12 +1,12 @@
-package br.com.rafaelaBarbosa.projeto_vass_commerce;
+package br.com.rafaelaBarbosa.projeto_vass_commerce.cidade;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import br.com.rafaelaBarbosa.projeto_vass_commerce.Estado;
 
 public class Cidade {
 
     private long id;
     private String nome;
-    @JsonIgnore
+    //@JsonIgnore
     private Estado estado;
 
     public Cidade() {}

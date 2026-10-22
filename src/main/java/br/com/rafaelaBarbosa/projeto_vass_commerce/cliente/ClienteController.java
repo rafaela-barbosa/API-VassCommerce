@@ -1,11 +1,13 @@
-package br.com.rafaelaBarbosa.projeto_vass_commerce;
+package br.com.rafaelaBarbosa.projeto_vass_commerce.cliente;
 
+import br.com.rafaelaBarbosa.projeto_vass_commerce.Cartao;
+import br.com.rafaelaBarbosa.projeto_vass_commerce.DadosMock;
+import br.com.rafaelaBarbosa.projeto_vass_commerce.Endereco;
+import br.com.rafaelaBarbosa.projeto_vass_commerce.Pedido;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.ArrayList;
-import java.util.Objects;
 
 @RestController
 @RequestMapping(path = "/cliente", produces = "application/json")

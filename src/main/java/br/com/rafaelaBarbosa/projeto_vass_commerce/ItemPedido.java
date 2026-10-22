@@ -1,5 +1,7 @@
 package br.com.rafaelaBarbosa.projeto_vass_commerce;
 
+import br.com.rafaelaBarbosa.projeto_vass_commerce.produto.Produto;
+
 public class ItemPedido {
 
     private long id;

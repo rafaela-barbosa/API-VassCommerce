@@ -1,5 +1,6 @@
 package br.com.rafaelaBarbosa.projeto_vass_commerce;
 
+import br.com.rafaelaBarbosa.projeto_vass_commerce.cliente.Cliente;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import java.time.LocalDateTime;

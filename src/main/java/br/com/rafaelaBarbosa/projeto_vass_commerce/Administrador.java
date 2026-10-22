@@ -1,5 +1,6 @@
 package br.com.rafaelaBarbosa.projeto_vass_commerce;
 
+import br.com.rafaelaBarbosa.projeto_vass_commerce.categoria.Categoria;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class Administrador extends Usuario {

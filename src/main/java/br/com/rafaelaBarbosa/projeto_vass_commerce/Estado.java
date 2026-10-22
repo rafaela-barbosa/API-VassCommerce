@@ -1,5 +1,7 @@
 package br.com.rafaelaBarbosa.projeto_vass_commerce;
 
+import br.com.rafaelaBarbosa.projeto_vass_commerce.cidade.Cidade;
+
 import java.util.List;
 import java.util.ArrayList;
 

@@ -1,7 +1,8 @@
 
-package br.com.rafaelaBarbosa.projeto_vass_commerce;
+package br.com.rafaelaBarbosa.projeto_vass_commerce.categoria;
 
-import org.apache.coyote.Response;
+import br.com.rafaelaBarbosa.projeto_vass_commerce.DadosMock;
+import br.com.rafaelaBarbosa.projeto_vass_commerce.produto.Produto;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

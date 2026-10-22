@@ -1,4 +1,6 @@
-package br.com.rafaelaBarbosa.projeto_vass_commerce;
+package br.com.rafaelaBarbosa.projeto_vass_commerce.categoria;
+
+import br.com.rafaelaBarbosa.projeto_vass_commerce.produto.Produto;
 
 import java.util.List;
 import java.util.ArrayList;

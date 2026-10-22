@@ -1,5 +1,10 @@
 package br.com.rafaelaBarbosa.projeto_vass_commerce;
 
+import br.com.rafaelaBarbosa.projeto_vass_commerce.categoria.Categoria;
+import br.com.rafaelaBarbosa.projeto_vass_commerce.cliente.Cliente;
+import br.com.rafaelaBarbosa.projeto_vass_commerce.produto.Produto;
+import br.com.rafaelaBarbosa.projeto_vass_commerce.cidade.Cidade;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
